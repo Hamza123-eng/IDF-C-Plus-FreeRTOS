@@ -1,6 +1,6 @@
-# I2C C++ Driver for ESP32
+# I2C C++ Driver for ESP32 on FreeRTOS Aaddon
 
-This C++ I2C driver is designed for ESP32 microcontrollers and provides thread-safe communication over I2C using a binary semaphore mechanism. It includes generic command execution functions, allowing users to send various I2C commands in a START-STOP-DATA format.
+This C++ I2C driver is designed for ESP32 on the C++ FreeRTOS Addon  and provides thread-safe communication over I2C using a binary semaphore mechanism. It includes generic command execution functions, allowing users to send various I2C commands in a START-STOP-DATA format.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ This I2C driver is tailored for ESP32 microcontrollers and facilitates seamless 
 
 ## Features
 
-- Thread-safe I2C communication using binary semaphore.
+- Thread-safe I2C communication using binary semaphore over FreeRTOS Addon.
 - Support for generic command execution (START-STOP-DATA format).
 - Functionality to set the slave address.
 - Default values set for maximum efficiency.
@@ -39,6 +39,6 @@ To integrate this I2C driver into your ESP32 project, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://gitlab.com/epteck-pk/ept-teams/digital-bravo/ept-products/ept-libs/esp-idf/idf-cpp-template.git -b component/i2c
+git clone https://github.com/Hamza123-eng/IDF-C-Plus-FreeRTOS.git
 
 ```
